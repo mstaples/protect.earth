@@ -4,6 +4,8 @@ layout: layout
 blueprints:
   - action
   - entry_link
+taxonomies:
+  - solutions
 revisions: false
 route: actions
 date: true

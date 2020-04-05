@@ -3,16 +3,14 @@ sections:
   summary:
     display: Summary
     fields:
-      -
-        handle: title
+      - handle: title
         field:
           input_type: text
           type: text
           localizable: false
           listable: hidden
           display: Title
-      -
-        handle: url
+      - handle: url
         field:
           input_type: url
           type: text
@@ -20,29 +18,26 @@ sections:
           listable: true
           display: URL
           validate: url
-      -
-        handle: categories
+      - handle: categories
         field:
           max_items: 3
           mode: select
           collections:
             - categories
           type: entries
-          instructions: 'Ideally most actions would fit in one or two categories, if it''s more than that maybe see if they have sub-pages to add as their own actions.'
+          instructions: "Ideally most actions would fit in one or two categories, if it's more than that maybe see if they have sub-pages to add as their own actions."
           localizable: false
           width: 50
           listable: hidden
           display: Categories
-      -
-        handle: tags
+      - handle: tags
         field:
           type: tags
           localizable: false
           listable: hidden
           display: Tags
           width: 50
-      -
-        handle: description
+      - handle: description
         field:
           restrict: false
           automatic_line_breaks: true
@@ -53,8 +48,7 @@ sections:
           localizable: false
           listable: hidden
           display: Description
-      -
-        handle: image
+      - handle: image
         field:
           mode: grid
           restrict: false
@@ -64,13 +58,12 @@ sections:
           localizable: false
           listable: hidden
           display: Image
-          container: actions
+          container: assets
           folder: actions
   countries:
     display: Countries
     fields:
-      -
-        handle: countries
+      - handle: countries
         field:
           options:
             gb: 'United Kingdom'
@@ -130,7 +123,7 @@ sections:
             cd: 'Congo, the Democratic Republic of the'
             ck: 'Cook Islands'
             cr: 'Costa Rica'
-            ci: 'CÃ´te d''Ivoire'
+            ci: "CÃ´te d'Ivoire"
             hr: Croatia
             cu: Cuba
             cw: CuraÃ§ao
@@ -192,11 +185,11 @@ sections:
             kz: Kazakhstan
             ke: Kenya
             ki: Kiribati
-            kp: 'Korea, Democratic People''s Republic of'
+            kp: "Korea, Democratic People's Republic of"
             kr: 'Korea, Republic of'
             kw: Kuwait
             kg: Kyrgyzstan
-            la: 'Lao People''s Democratic Republic'
+            la: "Lao People's Democratic Republic"
             lv: Latvia
             lb: Lebanon
             ls: Lesotho
@@ -329,8 +322,7 @@ sections:
   social_media:
     display: 'Social Media'
     fields:
-      -
-        handle: twitter
+      - handle: twitter
         field:
           input_type: text
           type: text
@@ -338,8 +330,7 @@ sections:
           localizable: false
           listable: hidden
           display: Twitter
-      -
-        handle: instagram
+      - handle: instagram
         field:
           input_type: text
           type: text
